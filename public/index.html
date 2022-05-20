@@ -13,53 +13,54 @@
       href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
       rel="stylesheet"
     />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <title>NihilSlides</title>
   </head>
   <body>
-    <div class="big-content-wrapper">
+    <div id="bg" class="wrapper">
       <header class="header">
         <div class="header__container">
           <p>NihilSlides</p>
         </div>
       </header>
-      <div id="bg" class="content-wrapper">
-        <main class="main">
-          <section class="section-heading main-section">
-            <div class="section-heading__container puff-in-center">
-              <div class="motds"></div>
+      <main class="main">
+        <div class="main-wrapper">
+          <section class="section-heading">
+          <div class="section-heading__container">
+            <div class="motds unselectable"></div>
+          </div>
+        </section>
+        <section class="section-btn slide-in-fwd-left">
+          <div class="section-btn__msg center">
+            <p>Rechaza los fundamentos de la existencia humana</p>
+          </div>
+          <div class="section-btn__container center btn-active btn-hover">
+            <a href="https://github.com/AgusR-99/NihilSlides" type="button"
+              >Comenzar</a
+            >
+        </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="footer__container">
+          <div class="media">
+            <div>
+              <a href="https://www.linkedin.com/in/ivan-rodriguez-dev/"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
             </div>
-          </section>
-          <section class="section-btn slide-in-fwd-left">
-            <div class="section-btn__msg center">
-              <p>Rechaza los fundamentos de la existencia humana</p>
-            </div>
-            <div class="section-btn__container center btn-active btn-hover">
-              <a href="https://github.com/AgusR-99/NihilSlides" type="button"
-                >Comenzar</a
-              >
-            </div>
-          </section>
-        </main>
-        <footer class="footer">
-          <div class="footer__container">
-            <div class="media">
-              <div>
-                <a href="https://www.linkedin.com/in/ivan-rodriguez-dev/"
-                  ><i class="fa-brands fa-linkedin"></i
-                ></a>
-              </div>
-              <div>
-                <a href="https://github.com/AgusR-99/NihilSlides"
-                  ><i class="fa-brands fa-github"></i
-                ></a>
-              </div>
-            </div>
-            <div class="copyright">
-              <p>Copyright © 2022, IvanDev. All Rights Reserved</p>
+            <div>
+              <a href="https://github.com/AgusR-99/NihilSlides"
+                ><i class="fa-brands fa-github"></i
+              ></a>
             </div>
           </div>
-        </footer>
-      </div>
+          <div class="copyright">
+            <p>Copyright © 2022, IvanDev. All Rights Reserved</p>
+          </div>
+        </div>
+      </footer>
     </div>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script src="./browser-app.js"></script>
